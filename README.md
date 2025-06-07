@@ -9,7 +9,7 @@
 <!-- Banner Image -->
 <p align="center">
   <a href="https://files.catbox.moe/3u88n0.webp">
-    <img src="https://files.catbox.moe/ts2az9.jpg" width="100%" height="auto">
+    <img src="https://files.catbox.moe/6th9wq.jpg" width="100%" height="auto">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 <!-- Action Buttons -->
 <p align="center">
-  <a href="https://nexus-qr-code-1-caxd.onrender.com">
+  <a href="https://nexus-ai-pairing-website.vercel.app/">
     <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/❤️_GET_NEXUS_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=blue" width="260" height="50"/>
    </a>
 </p>

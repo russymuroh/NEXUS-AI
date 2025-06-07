@@ -1,8 +1,7 @@
-const {zokou}=require("../framework/zokou") 
+const {zokou}=require("../framework/zokou")
 const {getContentType}=require("@whiskeysockets/baileys")
 
-
-zokou({ nomCom: "vv", aliases: ["send", "keep"], categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "vv2", aliases: ["send", "keep"], categorie: "Pk codes" }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, superUser } = commandeOptions;
 
   if (msgRepondu) {
@@ -22,7 +21,7 @@ zokou({ nomCom: "vv", aliases: ["send", "keep"], categorie: "General" }, async (
       } else if (msgRepondu.stickerMessage) {
         const media = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
         const stickerMess = new Sticker(media, {
-          pack: '𝐊𝐈𝐍𝐆𝐒-𝐌𝐃',
+          pack: 'NEXUS AI',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
